@@ -1,3 +1,14 @@
+/* KEYFRAMES */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 body {
   background-color: rgba(60, 58, 58, 0.869);
   text-align: center;
@@ -31,7 +42,28 @@ h1 {
 .eartf-orbit {
   width: 165px;
   height: 165px;
-  -webkit-animation: spin 12s linear 0s infinite;
+  animation: spin 12s linear 0s infinite;
+}
+
+.venus-orbit {
+  width: 120px;
+  height: 120px;
+  animation: spin 7.4s linear 0s infinite;
+}
+
+.mercury-orbit {
+  width: 90px;
+  height: 90px;
+  animation: spin 3s linear 0s infinite;
+}
+
+.planet {
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: aqua;
 }
 
 .sun {

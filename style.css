@@ -5,6 +5,35 @@ body {
 h1 {
   color: azure;
 }
+.solar-sistem {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.solar-sistem {
+  width: 250px;
+  height: 250px;
+  display: in;
+  align-items: center;
+  justify-content: center;
+}
+
+.orbit {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fafbfc;
+  border-radius: 50%;
+}
+.eartf-orbit {
+  width: 165px;
+  height: 165px;
+  -webkit-animation: spin 12s linear 0s infinite;
+}
+
 .sun {
   width: 35px;
   height: 35px;
